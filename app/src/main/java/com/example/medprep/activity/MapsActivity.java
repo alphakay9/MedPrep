@@ -635,7 +635,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private String places[]={
             "dentist",
             "doctor",
-            "funeral_home",
             "hospital",
             "pharmacy",
             "physiotherapist",};

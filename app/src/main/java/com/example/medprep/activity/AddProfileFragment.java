@@ -25,11 +25,7 @@ import com.example.medprep.helpers.helpers.GlobalVariables;
 import com.example.medprep.helpers.helpers.SharedPreferencesHelper;
 import com.example.medprep.helpers.helpers.WarningDialog;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link AddProfileFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class AddProfileFragment extends Fragment {
 
     private static final long DEFAULT_DATE = System.currentTimeMillis() - 410280000000L;
