@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1054777943556",
+    "project_id": "medprep-c2529",
+    "storage_bucket": "medprep-c2529.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054777943556:android:72acbff58a83c78d51f751",
+        "android_client_info": {
+          "package_name": "com.example.medprep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054777943556-q7ekqi100i99d240ifb2mkpo19b12vbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medprep.activity",
+            "certificate_hash": "32d2c592d50ef8c8065f0e3a616927560edb6255"
+          }
+        },
+        {
+          "client_id": "1054777943556-nh5hkiv3ue80kdeskn70q8o5c6nr1ib9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxIQ8NfSWn65v6wtSLJBGBQ_tIfG8Twoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054777943556-nh5hkiv3ue80kdeskn70q8o5c6nr1ib9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

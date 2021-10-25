@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity2"
+    android:background="#8099D0E6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current User:"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="17sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/symptoms"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/symptomasd"
+                android:layout_width="168dp"
+                android:layout_height="105dp"
+                android:text="Symptom Check" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/email"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/email_a_doc"
+                android:layout_width="168dp"
+                android:layout_height="105dp"
+                android:text="Email A Doctor"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/location"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/nearby_clinics"
+                android:layout_width="168dp"
+                android:layout_height="105dp"
+                android:text="Nearby Hospitals"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/chatbot"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/chatbot"
+                android:layout_width="168dp"
+                android:layout_height="105dp"
+                android:text="Medical Assistant"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="168dp"
+        android:layout_height="58dp"
+        android:onClick="logout"
+        android:text="Log Out"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+
+</LinearLayout>
